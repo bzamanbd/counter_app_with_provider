@@ -5,7 +5,7 @@ import 'controllers/controllers.dart';
 import 'themes/themes.dart';
 import 'views/home_screen.dart';
 void main() {
-  runApp( ChangeNotifierProvider(
+  runApp( ChangeNotifierProvider<NumController>(
     create: (_)=> NumController(),
     child: MyApp()));
 }
